@@ -1,0 +1,2 @@
+# ActoxObject
+Extended JS object
