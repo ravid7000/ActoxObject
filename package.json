@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "lodash": "^4.17.11"
+    "@types/jest": "^24.0.12",
+    "lodash": "^4.17.11",
+    "ts-jest": "^24.0.2"
   },
-  "keywords": ["state", "object", "object extend", "actox"],
+  "keywords": [
+    "state",
+    "object",
+    "object extend",
+    "actox"
+  ],
   "main": "dist/ActoxObject.min.js",
   "types": "dist/ActoxObject.d.ts",
   "devDependencies": {
@@ -36,7 +43,7 @@
     "html-webpack-plugin": "4.0.0-beta.5",
     "identity-obj-proxy": "3.0.0",
     "is-wsl": "^1.1.0",
-    "jest": "24.7.1",
+    "jest": "^24.8.0",
     "jest-environment-jsdom-fourteen": "0.1.0",
     "jest-resolve": "24.7.1",
     "jest-watch-typeahead": "0.3.0",
@@ -48,10 +55,10 @@
     "postcss-normalize": "7.0.1",
     "postcss-preset-env": "6.6.0",
     "postcss-safe-parser": "4.0.1",
+    "react": "^16.8.6",
     "react-app-polyfill": "^1.0.0",
     "react-dev-utils": "^9.0.0",
     "resolve": "1.10.0",
-    "react": "^16.8.6",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",
     "style-loader": "0.23.1",
@@ -67,7 +74,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js && yarn typing",
     "test": "node scripts/test.js",
-    "typing": "tsc --p tsconfig.json"
+    "typing": "tsc --p tsconfig.json",
+    "prepublishOnly": "yarn test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -133,5 +141,10 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "files": [
+    "src/**/*",
+    "tsconfig.json",
+    "dist/**/*"
+  ]
 }
