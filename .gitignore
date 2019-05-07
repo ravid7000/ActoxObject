@@ -59,3 +59,18 @@ typings/
 
 # next.js build output
 .next
+
+
+dist/ActoxObject.js
+dist/ActoxObject.js.*
+dist/asset-manifest.json
+dist/favicon.ico
+dist/index.d.ts
+dist/index.js
+dist/index.js.*
+dist/utils.d.ts
+dist/utils.js
+dist/utils.js.*
+dist/manifest.json
+dist/precache-manifest.*.js
+dist/service-worker.js

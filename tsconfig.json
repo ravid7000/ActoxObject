@@ -5,7 +5,7 @@
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "sourceMap": true,
+        "sourceMap": false,
         "strictNullChecks": false,
         "baseUrl": "./src",
         "rootDirs": [
@@ -14,9 +14,7 @@
         "outDir": "./dist",
         "esModuleInterop": true,
         "declaration": true,
-        "target": "es3",
-        "pretty": true,
-        "listEmittedFiles": true
+        "target": "esnext"
     },
     "include": [
         "src/**/*"
