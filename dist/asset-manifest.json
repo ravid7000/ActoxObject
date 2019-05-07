@@ -1,0 +1,8 @@
+{
+  "files": {
+    "main.js": "/actoxObject.min.js",
+    "main.js.map": "/actoxObject.min.js.map",
+    "precache-manifest.896a5a4d8f3ca760c4fcf51db9459e08.js": "/precache-manifest.896a5a4d8f3ca760c4fcf51db9459e08.js",
+    "service-worker.js": "/service-worker.js"
+  }
+}
