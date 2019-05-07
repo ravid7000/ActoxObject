@@ -11,7 +11,12 @@
         "rootDirs": [
             "src"
         ],
-        "esModuleInterop": true
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "declaration": true,
+        "target": "es3",
+        "pretty": true,
+        "listEmittedFiles": true
     },
     "include": [
         "src/**/*"

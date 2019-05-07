@@ -22,7 +22,7 @@ export interface IActoxObject {
 }
 
 class ActoxObject implements IActoxObject {
-  state = assign({}, null)
+  state: ActoxObjectType = assign({}, null)
   private watcher: WatcherType = []
 
   constructor(state: ActoxObjectType) {
