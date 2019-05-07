@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3bbe85e54a1330edf176",
+    "revision": "f2c95dc60e4452b868b8",
     "url": "/actoxObject.min.js"
   }
 ]);
